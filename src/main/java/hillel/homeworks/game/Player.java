@@ -9,11 +9,11 @@ import lombok.Setter;
 @Getter
 @Setter
 public class Player {
-    private String name;
-    private int gamesPlayed = 0;
-    private int win = 0;
-    private int loss = 0;
-    private int draw = 0;
+    private String name;            //  имя игрока
+    private int gamesPlayed = 0;    //  сыграно игр
+    private int win = 0;            //  побед
+    private int loss = 0;           //  поражений
+    private int draw = 0;           //  ничья
 
     @Override
     public String toString() {
