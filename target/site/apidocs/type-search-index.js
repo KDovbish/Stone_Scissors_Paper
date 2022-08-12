@@ -1,1 +1,0 @@
-typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"hillel.homeworks.game","l":"Game"},{"p":"hillel.homeworks.game","l":"GameWithLogging"},{"p":"hillel.homeworks.game","l":"Main"},{"p":"hillel.homeworks.game","l":"Player"}];updateSearchResults();
