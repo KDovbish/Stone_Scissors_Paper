@@ -24,7 +24,7 @@ public class Game {
 
     /**
      * Трансляция выбора игрока из кода в название
-     * @param choice код выбора
+     * @param choice Код выбора(STONE/SCISSORS/PAPER)
      * @return название выбора
      */
     public static String translateChoice(int choice) {
