@@ -3,6 +3,9 @@ package hillel.homeworks.game;
 import lombok.Getter;
 import lombok.Setter;
 
+/**
+ * Класс, описывающий игрока
+ */
 @Getter
 @Setter
 public class Player {

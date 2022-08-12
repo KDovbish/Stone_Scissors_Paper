@@ -25,4 +25,7 @@ hs_err_pid*
 .idea/
 # Исключаем всю папку target за исключением папки apidocs
 target/
-!target/site/apidocs/
+#!target/site/apidocs/
+
+#target/javadoc-bundle-options/
+#target/*.txt
