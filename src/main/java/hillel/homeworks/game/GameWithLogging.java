@@ -13,13 +13,7 @@ public class GameWithLogging extends Game {
      */
     void openLogging() {
         try {
-
-            //  *** ПРОДУКТИВ ***
-            //out = new FileWriter(getLogFileName(), true);
-
-            //  *** ОТЛАДКА ***
-            out = new FileWriter("c:\\space\\2022-08-12\\Stone_Scissors_Paper.log", true);
-
+            out = new FileWriter(getLogFileName(), true);
         } catch (IOException e) {
             out = null;
         }
